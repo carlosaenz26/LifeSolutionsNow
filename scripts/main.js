@@ -8,7 +8,11 @@ miImage.onclick = function () {
     } else {
       miImage.setAttribute('src', 'images/3.jpeg');
     }
-    
+    if (miSrc === 'images/2.jpeg') {
+      miImage.setAttribute('src','images/3.jpeg');
+    } else {
+      miImage.setAttribute('src', 'images/2.jpeg');
+    }
 }
 
 
